@@ -3,6 +3,8 @@
 		"description": "Print",
 		"prefix": ["debug_print", "template"],
 		"body": [
+			"io:format(user, \"~n----------------------------------~n\", []),",
+			"io:format(user, \"~p~n\", []),",
 			"io:format(user, \"test~n\", []),"
 		]
 	}
