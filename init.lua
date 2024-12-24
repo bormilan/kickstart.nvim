@@ -753,7 +753,7 @@ require('lazy').setup({
       require('mini.surround').setup()
 
       -- starter screen
-      require('mini.starter').setup()
+      -- require('mini.starter').setup()
 
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
